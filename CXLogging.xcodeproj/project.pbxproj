@@ -8,24 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		BAC60BBF1D6B3C9B00FCCBF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC60BBE1D6B3C9B00FCCBF3 /* main.m */; };
-		BAC60BC21D6B3C9B00FCCBF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC60BC11D6B3C9B00FCCBF3 /* AppDelegate.m */; };
-		BAC60BC51D6B3C9B00FCCBF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC60BC41D6B3C9B00FCCBF3 /* ViewController.m */; };
 		BAC60BC81D6B3C9B00FCCBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC60BC61D6B3C9B00FCCBF3 /* Main.storyboard */; };
 		BAC60BCA1D6B3C9B00FCCBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC60BC91D6B3C9B00FCCBF3 /* Assets.xcassets */; };
 		BAC60BCD1D6B3C9B00FCCBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC60BCB1D6B3C9B00FCCBF3 /* LaunchScreen.storyboard */; };
+		BAC60BDB1D6B3CDE00FCCBF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC60BD71D6B3CDE00FCCBF3 /* AppDelegate.m */; };
+		BAC60BDC1D6B3CDE00FCCBF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC60BDA1D6B3CDE00FCCBF3 /* ViewController.m */; };
+		BAC60BE31D6B3DEC00FCCBF3 /* CXLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC60BE21D6B3DEC00FCCBF3 /* CXLogger.m */; };
+		BAC60BE61D6B3F9000FCCBF3 /* CXLogEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC60BE51D6B3F9000FCCBF3 /* CXLogEvent.m */; };
+		BAC60BE91D6B42BA00FCCBF3 /* PendingOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC60BE81D6B42BA00FCCBF3 /* PendingOperations.m */; };
+		BAC60BEC1D6B42C600FCCBF3 /* LogglyLogTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC60BEB1D6B42C600FCCBF3 /* LogglyLogTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BAC60BBA1D6B3C9B00FCCBF3 /* CXLogging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXLogging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC60BBE1D6B3C9B00FCCBF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BAC60BC01D6B3C9B00FCCBF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BAC60BC11D6B3C9B00FCCBF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BAC60BC31D6B3C9B00FCCBF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BAC60BC41D6B3C9B00FCCBF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BAC60BC71D6B3C9B00FCCBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAC60BC91D6B3C9B00FCCBF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAC60BCC1D6B3C9B00FCCBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAC60BCE1D6B3C9B00FCCBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC60BD61D6B3CDE00FCCBF3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAC60BD71D6B3CDE00FCCBF3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAC60BD91D6B3CDE00FCCBF3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAC60BDA1D6B3CDE00FCCBF3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAC60BE01D6B3D5300FCCBF3 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		BAC60BE11D6B3DEC00FCCBF3 /* CXLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLogger.h; sourceTree = "<group>"; };
+		BAC60BE21D6B3DEC00FCCBF3 /* CXLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLogger.m; sourceTree = "<group>"; };
+		BAC60BE41D6B3F9000FCCBF3 /* CXLogEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLogEvent.h; sourceTree = "<group>"; };
+		BAC60BE51D6B3F9000FCCBF3 /* CXLogEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLogEvent.m; sourceTree = "<group>"; };
+		BAC60BE71D6B42BA00FCCBF3 /* PendingOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PendingOperations.h; sourceTree = "<group>"; };
+		BAC60BE81D6B42BA00FCCBF3 /* PendingOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PendingOperations.m; sourceTree = "<group>"; };
+		BAC60BEA1D6B42C600FCCBF3 /* LogglyLogTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogglyLogTask.h; sourceTree = "<group>"; };
+		BAC60BEB1D6B42C600FCCBF3 /* LogglyLogTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogglyLogTask.m; sourceTree = "<group>"; };
+		BAC60BEE1D6B47BD00FCCBF3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +72,7 @@
 		BAC60BBC1D6B3C9B00FCCBF3 /* CXLogging */ = {
 			isa = PBXGroup;
 			children = (
-				BAC60BC01D6B3C9B00FCCBF3 /* AppDelegate.h */,
-				BAC60BC11D6B3C9B00FCCBF3 /* AppDelegate.m */,
-				BAC60BC31D6B3C9B00FCCBF3 /* ViewController.h */,
-				BAC60BC41D6B3C9B00FCCBF3 /* ViewController.m */,
+				BAC60BD41D6B3CDE00FCCBF3 /* Classes */,
 				BAC60BC61D6B3C9B00FCCBF3 /* Main.storyboard */,
 				BAC60BC91D6B3C9B00FCCBF3 /* Assets.xcassets */,
 				BAC60BCB1D6B3C9B00FCCBF3 /* LaunchScreen.storyboard */,
@@ -77,6 +88,59 @@
 				BAC60BBE1D6B3C9B00FCCBF3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAC60BD41D6B3CDE00FCCBF3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BAC60BDD1D6B3D5300FCCBF3 /* Logging */,
+				BAC60BDE1D6B3D5300FCCBF3 /* Utilities */,
+				BAC60BD51D6B3CDE00FCCBF3 /* AppDelegate */,
+				BAC60BD81D6B3CDE00FCCBF3 /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BAC60BD51D6B3CDE00FCCBF3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BAC60BD61D6B3CDE00FCCBF3 /* AppDelegate.h */,
+				BAC60BD71D6B3CDE00FCCBF3 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BAC60BD81D6B3CDE00FCCBF3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAC60BD91D6B3CDE00FCCBF3 /* ViewController.h */,
+				BAC60BDA1D6B3CDE00FCCBF3 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BAC60BDD1D6B3D5300FCCBF3 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				BAC60BE71D6B42BA00FCCBF3 /* PendingOperations.h */,
+				BAC60BE81D6B42BA00FCCBF3 /* PendingOperations.m */,
+				BAC60BE11D6B3DEC00FCCBF3 /* CXLogger.h */,
+				BAC60BE21D6B3DEC00FCCBF3 /* CXLogger.m */,
+				BAC60BE41D6B3F9000FCCBF3 /* CXLogEvent.h */,
+				BAC60BE51D6B3F9000FCCBF3 /* CXLogEvent.m */,
+				BAC60BEA1D6B42C600FCCBF3 /* LogglyLogTask.h */,
+				BAC60BEB1D6B42C600FCCBF3 /* LogglyLogTask.m */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		BAC60BDE1D6B3D5300FCCBF3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BAC60BEE1D6B47BD00FCCBF3 /* Constants.h */,
+				BAC60BE01D6B3D5300FCCBF3 /* Enums.h */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +213,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC60BC51D6B3C9B00FCCBF3 /* ViewController.m in Sources */,
-				BAC60BC21D6B3C9B00FCCBF3 /* AppDelegate.m in Sources */,
+				BAC60BE31D6B3DEC00FCCBF3 /* CXLogger.m in Sources */,
+				BAC60BE61D6B3F9000FCCBF3 /* CXLogEvent.m in Sources */,
+				BAC60BEC1D6B42C600FCCBF3 /* LogglyLogTask.m in Sources */,
+				BAC60BDC1D6B3CDE00FCCBF3 /* ViewController.m in Sources */,
+				BAC60BDB1D6B3CDE00FCCBF3 /* AppDelegate.m in Sources */,
 				BAC60BBF1D6B3C9B00FCCBF3 /* main.m in Sources */,
+				BAC60BE91D6B42BA00FCCBF3 /* PendingOperations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
